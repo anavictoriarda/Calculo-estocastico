@@ -1,6 +1,4 @@
-[README_CalcEst.md](https://github.com/user-attachments/files/28657498/README_CalcEst.md)
-# Calculo-estocastico-
-Código de la clase de calculo estocástico - UP Finanzas 2026
+[README_CalcEst .md](https://github.com/user-attachments/files/28658027/README_CalcEst.1.md)
 # Calculo-Estocastico
 
 Repositorio de código para el curso de **Cálculo Estocástico**.
@@ -11,9 +9,10 @@ Repositorio de código para el curso de **Cálculo Estocástico**.
 
 ```
 Calculo-Estocastico/
-├── Codigo.py          ← Motor principal del Proyecto Final (Labs 1–5 + Proyecto 6)
-├── donsker.jsx        ← Visualización interactiva del Teorema de Donsker (React)
-└── levy_area_Z2.gif   ← Animación del Área de Lévy
+├── Codigo.py                ← Motor principal del Proyecto Final (Labs 1–5 + Proyecto 6)
+├── calculo_estocastico.py   ← Recordatorio de probabilidad y simulación del Teorema de Donsker
+├── donsker.jsx              ← Visualización interactiva del Teorema de Donsker (React)
+└── levy_area_Z2.gif         ← Animación del Área de Lévy
 ```
 
 ---
@@ -47,7 +46,28 @@ pip install yfinance
 python Codigo.py
 ```
 
-Las figuras se guardan en `figs/` y los resultados numéricos en `results.json`.
+---
+
+### `calculo_estocastico.py` — Probabilidad y Teorema de Donsker
+
+Notebook exportado desde Google Colab con dos secciones:
+
+**1. Recordatorio de probabilidad**
+- Repaso del Teorema de Bayes con ejemplo de lanzamiento de moneda
+- Uso de `itertools` para construir espacios muestrales (producto cartesiano)
+- Cálculo de probabilidades condicionales
+
+**2. Simulación interactiva del Teorema de Donsker**
+- Simulación de paseos aleatorios normalizados por $1/\sqrt{n}$
+- Comparación visual contra el movimiento browniano estándar
+- Visualización interactiva con sliders (`ipywidgets`) para controlar número de pasos y paseos
+
+**Dependencias:**
+```bash
+pip install numpy matplotlib ipywidgets
+```
+
+**Ejecución:** Recomendado en Google Colab o Jupyter Notebook.
 
 ---
 
@@ -91,3 +111,4 @@ estocástico bidimensional.
 | Universidad | Universidad Panamericana |
 | Curso | Cálculo Estocástico |
 | Año | 2026 |
+
