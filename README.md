@@ -1,5 +1,5 @@
 [README_CalcEst.md](https://github.com/user-attachments/files/28657498/README_CalcEst.md)
-# Calculo-estoc-stico-
+# Calculo-estocastico-
 Código de la clase de calculo estocástico - UP Finanzas 2026
 # Calculo-Estocastico
 
